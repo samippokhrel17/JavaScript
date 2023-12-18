@@ -1,11 +1,16 @@
-function abi(a,b){
-    const c = a+b
-    console.log(c)
+
+function function_name ()
+{
+    return "hello world"
+}
+console.log(function_name());
 
 
+
+
+const checkingFunction = ()=>
+{
+    return "hello my world"
 }
 
-abi(1,2)
-const samip=(a)=>{
-
-}
+console.log(checkingFunction());
