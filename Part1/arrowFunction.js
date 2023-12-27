@@ -31,16 +31,25 @@
    
 //     console.log(first("Bibek "));  
 
-const findTarget=(array,target)=>{
-    for(let i=0; i<=array.length; i++){
-        if(array[i]===target){
-            return i+1;
-        }
+// const findTarget=(array,target)=>{
+//     for(let i=0; i<=array.length; i++){
+//         if(array[i]===target){
+//             return i+1;
+//         }
+//     }
+//     return -1
+// }
+
+// console.log("the Target is in",findTarget([1,2,7,8,5],8),"position")
+
+//this
+
+const user1={
+    firstName: "har",
+    age : 8,
+    about(){
+        console.log(this.firstName,this.age)
     }
-    return -1
-}
+    }
 
-console.log("the Target is in",findTarget([1,2,7,8,5],8),"position")
-
-
-
+    user1.about()

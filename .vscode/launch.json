@@ -16,11 +16,11 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "rest",
+            "name": "sort",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program":"${workspaceFolder}\\Functions\\restParameter.js"
+            "program":"${workspaceFolder}\\Functions\\sort.js"
         }
 
 
